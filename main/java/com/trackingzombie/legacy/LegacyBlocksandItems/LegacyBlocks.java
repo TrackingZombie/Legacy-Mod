@@ -39,6 +39,13 @@ public class LegacyBlocks {
 
 	public static void drops()
 	{
+		//Vanila code....Block will drop itself when mined...Example mining iron ore will yeld iron ore..
+		//setDrops are used to set itemdrop or diffrent Blockore...upon braking the block.
+		//So this code is saying: You want me to drop same blocks....but i do need this line of code to do it
+		// ..but you are the boss :P
+		
+		
+		/*
 		legacy_ore.setDrops(legacy_ore);
 		legacy_nether_ore.setDrops(legacy_nether_ore);
 		legacy_end_ore.setDrops(legacy_end_ore);
@@ -47,9 +54,13 @@ public class LegacyBlocks {
 		angel_block.setDrops(angel_block);
 		atom_block.setDrops(atom_block);	
 		ninja_block.setDrops(ninja_block);
+		
 		viking_block.setDrops(viking_block);
+		*/
 
 	}
+	
+	//I would name this to RenderBlockTexture.....just saying. 
 	public static void Render()
 	{
 		legacy_ore.RegisterRenderer("legacy_ore");

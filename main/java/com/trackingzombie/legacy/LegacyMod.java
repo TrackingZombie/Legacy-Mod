@@ -28,6 +28,8 @@ public class LegacyMod {
 	@EventHandler
 	public void preinit(FMLPreInitializationEvent event) 
 	{
+
+		
 		proxy.preinit(event);
 	}
 
