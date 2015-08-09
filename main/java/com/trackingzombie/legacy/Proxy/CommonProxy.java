@@ -17,13 +17,7 @@ public class CommonProxy {
 	}
 
 	public void init(FMLInitializationEvent event) {
-		LegacyBlocks.NewBlocks();
-		LegacyBlocks.drops();
-		LegacyItems.normalitem();
-		LegacyBlocks.recipe();
-		LegacyItems.recipe();
-		LegacyTools.newtools();
-		LegacyTools.recipe();
+		
 		
 
 	}

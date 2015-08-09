@@ -23,7 +23,7 @@ public class Toolssword extends ItemSword {
 
 		this.setUnlocalizedName(name);
 		this.setCreativeTab(creativetab);
-		this.setMaxStackSize(maxstacksize);
+		this.setMaxStackSize(maxstacksize);// = 1 by vanila code!...unless specified otherwise...Note: All tools stack to 1 when damaged...this line is useless/not-needed.
 		System.out.println("INITIALIZING ITEM: " + name);
 
 		GameRegistry.registerItem(this, name);
