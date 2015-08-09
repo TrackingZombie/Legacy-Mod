@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "lm:blocks/legacy_nether_ore"
+    }
+}
